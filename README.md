@@ -14,6 +14,6 @@ distance_subscriber.py is a Subscriber Node, subscribed to the topic "distance".
 
 ## Launching
 1) Open terminal inside your ros2 workspace
-2) source your terminal via 'source install/setup.bash'
-3) Build the workspace via 'colcon build --packages-select distance_monitor'
+2) Build the workspace via 'colcon build --packages-select distance_monitor'
+3) ource your terminal via 'source install/setup.bash'
 4) Launch the launch file via 'ros2 launch distance_monitor distance_monitor_launch.launch.py'
