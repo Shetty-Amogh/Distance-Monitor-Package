@@ -1,2 +1,13 @@
 # Distance-Monitor-Package
 A distance monitor developed for Robot movement checking nodes, via ROS2 
+
+# File Setup Guide : 
+Create your ros2 workspace and put this src folder inside it
+
+#Working and Useage : 
+
+distance_publisher.py is a Publisher Node, which randomly generates a fake distance value ranging from 0-150 cm, and publishes it in the topic name "distance".
+
+distance_subscriber.py is a Subscriber Node, subscribed to the topic "distance". The recieved data is compared with the set parameters inside this file and accordingly output is logged, if it is safe for the robot to continue moving, or if it should move slowly or if it should stop.
+
+
